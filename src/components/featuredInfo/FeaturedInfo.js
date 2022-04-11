@@ -61,7 +61,6 @@ function FeaturedInfo({ type }) {
 
     return (
         <div className='featured'>
-
             {/* USERS-----------------------------------------------*/}
             <div className="boxContainer">
                 {/* 1st Row----------------*/}
@@ -80,7 +79,6 @@ function FeaturedInfo({ type }) {
                     {data.thirdRowIcon}
                 </div>
             </div>
-
         </div>
     )
 }
