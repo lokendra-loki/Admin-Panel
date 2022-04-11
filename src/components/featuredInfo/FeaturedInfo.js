@@ -53,12 +53,6 @@ function FeaturedInfo({ type }) {
 
 
 
-
-
-
-
-
-
     return (
         <div className='featured'>
             {/* USERS-----------------------------------------------*/}

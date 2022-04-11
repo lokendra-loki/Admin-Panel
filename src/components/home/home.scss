@@ -1,4 +1,10 @@
-.home{
+.home {
     flex: 4;
-    display: flex;
+    .cardRow {
+        display: flex;
+    }
+    .revenueAndGraphRow{
+        display: flex;
+        justify-content: space-between;
+    }
 }
