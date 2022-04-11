@@ -2,10 +2,12 @@
   margin-top: 30px;
   margin-left: 20px;
   margin-right: 20px;
+  // display: flex;
+  // align-items: center;
+  // flex-direction: row;
   display: flex;
-  align-items: center;
+  
   .boxContainer {
-
     height: 150px;
     width: 290px;
     border-radius: 16px;
@@ -59,7 +61,7 @@
       align-items: center;
       justify-content: space-between;
       
-      .thirdRowTitle {
+      .thirdRowTitleLink {
         margin-left: 10px;
         padding-bottom: 1px;
         border-bottom: 1px solid #1f67db;

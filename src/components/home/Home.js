@@ -5,7 +5,12 @@ import "./home.scss"
 function Home() {
   return (
     <div className='home'>
-      <FeaturedInfo/>
+      <FeaturedInfo type="user" />
+      <FeaturedInfo type="order" />
+      <FeaturedInfo type="earning" />
+      <FeaturedInfo type="balance" />
+
+
     </div>
   )
 }
