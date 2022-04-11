@@ -26,6 +26,7 @@ function FeaturedInfo() {
             </div>
 
 
+
             {/* ORDERS-----------------------------------------------*/}
             <div className="boxContainer">
                 {/* 1st Row---------------------------- */}
@@ -79,9 +80,11 @@ function FeaturedInfo() {
                 {/* 3rd Row---------------------------- */}
                 <div className="thirdRowContainerOfBoxContainer">
                     <span className="thirdRowTitle">See details</span>
-                 
                     <AccountBalanceWalletOutlined className='thirdRowIcon'/>
                 </div>
+
+
+
 
             </div>
         </div>

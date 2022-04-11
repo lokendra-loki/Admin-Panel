@@ -6,13 +6,10 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <div className="App">
-
       <Topbar />
-
       <div className="container">
         <Leftbar/>
         <Home/>
-       
       </div>
     </div>
   );
