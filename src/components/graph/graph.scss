@@ -3,8 +3,24 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
+    padding: 10px;
 
     box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
     -webkit-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
     -moz-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+
+    .chartTitle {
+        color: #555;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .actualChart {
+        margin-top: 20px;
+    }
+    .chartColor{
+        stroke: rgb(224, 220, 220);
+        
+     ;
+    }
 }
