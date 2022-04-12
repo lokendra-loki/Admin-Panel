@@ -14,9 +14,9 @@
         justify-content: space-between;
         font-size: 18px;
         font-weight: 600;
-        color: #555;;
+        color: #555;
     }
-    .revenueBottom{
+    .revenueBottom {
         padding: 20px;
         display: flex;
         align-items: center;
@@ -24,22 +24,58 @@
         flex-direction: column;
         gap: 15px;
 
-        .progressBarCon{
+        .progressBarCon {
             width: 100px;
             height: 100px;
         }
-        .totalSaleMade{
+        .totalSaleMade {
             font-size: 18px;
             font-weight: 500;
             color: #555;
         }
-        .totalSaleMadeAmount{
+        .totalSaleMadeAmount {
             font-size: 32px;
         }
-        .totalRevDescription{
+        .totalRevDescription {
             font-size: 14px;
             color: #555;
             text-align: center;
+        }
+
+        .revenueSummary {
+            display: flex;
+
+            .revenueSummaryItem {
+                display: flex;
+                flex-direction: column;
+                padding: 0px 10px;
+              
+               
+         
+                .revenueSummaryItemTitle {
+                    color: #555;
+                    font-weight: 500;
+                    
+                }
+
+                .revenueSummaryItemResult {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 8px;
+
+                    &.positive{
+                        color:green
+
+                    }
+                    &.negative{
+                        color:red
+                    }
+                 
+                    
+
+                   
+                }
+            }
         }
     }
 }

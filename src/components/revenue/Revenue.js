@@ -3,6 +3,8 @@ import "./revenue.scss"
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import { KeyboardArrowDown } from '@mui/icons-material';
+import { KeyboardArrowUp } from '@mui/icons-material';
 
 function Revenue() {
     return (
@@ -23,7 +25,36 @@ function Revenue() {
                 </span>
 
                 <div className="revenueSummary">
-                    
+
+                    <div className="revenueSummaryItem">
+                        <span className='revenueSummaryItemTitle'>Target</span>
+                        <div className="revenueSummaryItemResult positive">
+                            <KeyboardArrowUp className="summaryArrowUpIcon" />
+                            <span className='revenueSummaryItemResultAmount'>$420</span>
+
+                        </div>
+                    </div>
+
+                    <div className="revenueSummaryItem">
+                        <span className='revenueSummaryItemTitle'>Last Week</span>
+                        <div className="revenueSummaryItemResult negative">
+                            <KeyboardArrowUp className="summaryArrowUpIcon" />
+                            <span className='revenueSummaryItemResultAmount'>$420</span>
+
+                        </div>
+                    </div>
+
+                    <div className="revenueSummaryItem">
+                        <span className='revenueSummaryItemTitle'>Last Month</span>
+                        <div className="revenueSummaryItemResult positive">
+                            <KeyboardArrowUp className="summaryArrowUpIcon" />
+                            <span className='revenueSummaryItemResultAmount'>$420</span>
+
+                        </div>
+                    </div>
+
+
+
                 </div>
 
             </div>
