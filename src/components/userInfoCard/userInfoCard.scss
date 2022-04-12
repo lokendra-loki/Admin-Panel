@@ -1,0 +1,82 @@
+.userInfoCardCon {
+    margin: 20px;
+
+    .singlePageRowOne{
+    
+        display: flex;
+        
+    .userInfoCardConWrapper {
+        height: 240px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+        -webkit-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+        -moz-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+
+        .informationTxt {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgba(128, 128, 128, 0.636);
+        }
+        .avatarAndNameRow {
+            margin-top: 15px;
+            display: flex;
+            
+            .avatrColumn {
+                display: flex;
+
+                .avatarPic {
+                    height: 100px;
+                    height: 100px;
+                    border-radius: 10px;
+
+                    object-fit: cover;
+                }
+            }
+            .userNameAndInfoColumn {
+                margin-left: 15px;
+                .userInfoName{
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: rgb(128, 128, 128);
+                }
+                .userInfoKeyValue {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 5px;
+
+                    .userInfoKey{
+                        font-weight: 600;
+                        color: rgb(74, 73, 73);
+                    }
+                    
+                }
+                .userInfoEditButton{
+                    width: 80px;
+                    height: 30px;
+                    border: none;
+                    border:1px solid green;
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: grey;
+                    background-color: rgba(0, 128, 0, 0.263);
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    margin-left: 150px;
+
+
+                }
+            }
+        }
+    }
+
+    .singlePageChart{
+        width: 850px;
+        margin-top: -30px;
+        
+    }
+    
+
+    
+}
+}

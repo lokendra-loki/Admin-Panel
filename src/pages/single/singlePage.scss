@@ -1,0 +1,16 @@
+.singlePageCon {
+    .singlePageWrapper {
+        display: flex;
+        .singlePageLeftBar {
+            flex: 3;
+        }
+        .singlePageRightWholeCon {
+            flex: 6;
+
+            .singlePageRightSideFirstRow{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

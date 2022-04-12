@@ -17,11 +17,11 @@ const data = [
 
 
 
-function Graph() {
+function Graph({ aspect, chartTitle }) {
   return (
     <div className='graphCon'>
-      <span className="chartTitle">Last 6 months(income)</span>
-      <ResponsiveContainer className="actualChart" width="100%" height={320}>
+      <span className="chartTitle">{chartTitle}</span>
+      <ResponsiveContainer className="actualChart" width="100%" aspect={aspect}>
         <AreaChart width={730} height={250} data={data}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
           <defs>
@@ -33,7 +33,7 @@ function Graph() {
           </defs>
           <XAxis dataKey="name" />
           <YAxis />
-          <CartesianGrid strokeDasharray="3 3" className='chartColor'  />
+          <CartesianGrid strokeDasharray="3 3" className='chartColor' />
           <Tooltip />
           <Area type="monotone" dataKey="Total" stroke="#8884d8" fillOpacity={1} fill="url(#total)" />
 

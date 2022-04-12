@@ -1,0 +1,11 @@
+.listPage{
+   .listContainer{
+        display: flex;
+        .leftBarInListPage{
+            flex: 3;
+        }
+        .dataTableInListPage{
+            flex: 7;
+        }
+   } 
+}
