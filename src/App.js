@@ -20,17 +20,33 @@
 
 
 
-import "./app.scss"
-import SinglePage from "./pages/single/SinglePage";
-// import List from "./pages/list/List";
+// import "./app.scss"
+// import SinglePage from "./pages/single/SinglePage";
+// // import List from "./pages/list/List";
 
+
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* <List /> */}
+//       <SinglePage/>
+
+//     </div>
+//   );
+// }
+// export default App;
+
+
+
+
+//AddNewUserPage
+import "./app.scss"
+import AddNewUserPage from "./pages/addNewUser/AddNewUserPage";
 
 function App() {
   return (
     <div className="App">
-      {/* <List /> */}
-      <SinglePage/>
-
+      <AddNewUserPage />
     </div>
   );
 }
