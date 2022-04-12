@@ -19,9 +19,6 @@ function DataTable() {
 
 
 
-
-
-
     return (
         <div className="dataTableCon">
             <div style={{ height: 600,  }}>
@@ -33,15 +30,6 @@ function DataTable() {
                     checkboxSelection
                 />
             </div>
-
-
-
-
-
-
-
-
-
 
         </div>
     )

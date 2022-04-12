@@ -1,6 +1,7 @@
 import React from 'react'
 import "./userInfoCard.scss"
 import Graph from '../graph/Graph'
+import DataTable from '../datatable/DataTable'
 
 
 function UserInfoCard() {
@@ -37,31 +38,20 @@ function UserInfoCard() {
                             </div>
 
                             <button className='userInfoEditButton'>Edit</button>
-
                         </div>
-
-
-
                     </div>
-
-
                 </div>
-
                 <div className="singlePageChart">
-                    <Graph  aspect={8/2.2} chartTitle="User Spending (Last 6 months)"/>
+                    <Graph aspect={8 / 2.2} chartTitle="User Spending (Last 6 months)" />
                 </div>
 
 
             </div>
 
-
-
-
-
-
-
-
-
+            <div className="singlePageTable">
+                <span className='singlePageTableTitle'>Last Transaction</span>
+                <DataTable/>
+            </div>
 
         </div>
     )
