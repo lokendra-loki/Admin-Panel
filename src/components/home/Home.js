@@ -1,6 +1,7 @@
 import React from 'react'
 import FeaturedInfo from '../featuredInfo/FeaturedInfo'
 import Graph from '../graph/Graph'
+import LatestTransaction from '../latestTransaction/LatestTransaction'
 import Revenue from '../revenue/Revenue'
 import "./home.scss"
 
@@ -18,6 +19,7 @@ function Home() {
         <Revenue/>
         <Graph/>
       </div>
+      <LatestTransaction/>
       
     </div>
   )

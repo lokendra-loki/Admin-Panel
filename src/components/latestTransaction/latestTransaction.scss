@@ -1,0 +1,50 @@
+.latestTransactionCon {
+    box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+    -webkit-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+    -moz-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+    margin: 20px;
+
+    .latestTransTitle {
+        margin: 20px;
+        font-weight: 500;
+        color: grey;
+    }
+    .latestTransactionTable {
+        .actualTable {
+            .tableName1 {
+                .tableBody {
+                    .tableKeyRow {
+                        .tableCell {
+                            .status {
+                                padding: 5px;
+                                border-radius: 5px;
+
+                                &.Approved {
+                                    color: green;
+                                    background-color: rgb(229, 242, 229);
+                                }
+                                &.Pending {
+                                    color: goldenrod;
+                                    background-color: rgb(245, 238, 220)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .productCellWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .productCellImg {
+            height: 20px;
+            width: 20px;
+            margin-right: 8px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+}
