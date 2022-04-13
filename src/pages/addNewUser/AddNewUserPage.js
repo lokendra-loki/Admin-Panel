@@ -43,10 +43,10 @@ function AddNewUserPage() {
 
                                 <label className='addNewUserLabel'>Country</label>
                                 <input className='addNewUserInput' type="text" placeholder='Nepal' />
-                                <button className='addUserButton'  type='submit'  >Add User</button>
-                                
+                                <button className='addUserButton' type='submit'  >Add User</button>
+
                             </div>
-                            
+
 
 
 

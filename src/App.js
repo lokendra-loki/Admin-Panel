@@ -41,12 +41,14 @@
 
 //AddNewUserPage
 import "./app.scss"
-import AddNewUserPage from "./pages/addNewUser/AddNewUserPage";
+import AddProduct from "./pages/addProduct/AddProduct";
+// import AddNewUserPage from "./pages/addNewUser/AddNewUserPage";
 
 function App() {
   return (
     <div className="App">
-      <AddNewUserPage />
+      {/* <AddNewUserPage /> */}
+     <AddProduct/>
     </div>
   );
 }

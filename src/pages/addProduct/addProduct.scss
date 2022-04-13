@@ -1,0 +1,68 @@
+.addNewProductPage {
+    .addNewProductPageWrapper {
+        display: flex;
+        .addNewProductLeftSide {
+            flex: 2;
+        }
+        .addNewProductRightSide {
+            margin-left: 20px;
+            margin-top: 10px;
+            flex: 10;
+            width: 100%;
+
+            .addNewProductForm {
+                display: flex;
+                flex-direction: column;
+                height: 460px;
+                width: 300px;
+                padding: 30px;
+                border-radius: 5px;
+                box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+                -webkit-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+                -moz-box-shadow: 1px 2px 26px 5px rgba(156, 142, 142, 0.36);
+
+                .addNewProductTxt {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: rgb(53, 52, 52);
+                    margin-bottom: 14px;
+                }
+
+                .addNewProductChooseFileInput {
+                    margin-bottom: 16px;
+                    margin-top: 5px;
+                }
+
+                .addNewProductFormLabel {
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: rgb(55, 54, 54);
+                    margin-bottom: 3px;
+                }
+                .addNewProductFormInput {
+                    height: 36px;
+                    border: none;
+                    outline: none;
+                    border: 1px solid teal;
+                    border-radius: 5px;
+                    padding-left: 8px;
+                    margin-bottom: 20px;
+                }
+                .addNewProductFormButton {
+                    height: 36px;
+                    border: none;
+                    outline: none;
+                    border: 1px solid teal;
+                    border-radius: 5px;
+                    padding-left: 8px;
+                    margin-bottom: 20px;
+                    margin-top: 12px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: white;
+                    background-color: teal;
+                }
+            }
+        }
+    }
+}
