@@ -1,10 +1,30 @@
+// .home {
+//     flex: 4;
+//     .cardRow {
+//         display: flex;
+//     }
+//     .revenueAndGraphRow{
+//         display: flex;
+//         justify-content: space-between;
+//     }
+// }
+
 .home {
-    flex: 4;
-    .cardRow {
+    .homePageWrapper {
         display: flex;
-    }
-    .revenueAndGraphRow{
-        display: flex;
-        justify-content: space-between;
+        .homeLeftBar {
+            flex: 2;
+        }
+        .homePageRightbar {
+            flex: 11;
+
+            .cardRow{
+                display: flex;
+            }
+
+            .revenueAndGraphRow{
+                display: flex;
+            }
+        }
     }
 }

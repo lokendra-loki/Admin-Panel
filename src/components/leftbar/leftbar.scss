@@ -17,7 +17,7 @@
         color: #555;
       }
       .leftBarList {
-          margin-bottom: 20px;
+        margin-bottom: 20px;
 
         .leftBarListItem {
           display: flex;
@@ -32,19 +32,22 @@
           margin-bottom: 10px;
           border-radius: 10px;
 
-          &:active, &:hover {
-            background-color: rgb(234, 223, 245)
+          &:hover {
+            background-color: rgb(234, 223, 245);
+          }
+
+          &.active {
+            background-color: rgb(234, 223, 245);
           }
         }
 
-        .leftBarIcons{
-            color: blueviolet;
-            padding-left: 8px;
+        .leftBarIcons {
+          color: blueviolet;
+          padding-left: 8px;
         }
 
-        .leftBarIconTitle{
-            margin-left: 8px;
-            
+        .leftBarIconTitle {
+          margin-left: 8px;
         }
       }
     }

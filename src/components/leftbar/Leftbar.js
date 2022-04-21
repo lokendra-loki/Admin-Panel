@@ -10,7 +10,7 @@ function Leftbar() {
                     {/* MAIN--------------------------- */}
                     <h3 className="leftBarTitle">MAIN</h3>
                     <ul className="leftBarList">
-                        <li className="leftBarListItem">
+                        <li className="leftBarListItem active "  >
                             <Dashboard className='leftBarIcons' />
                             <span className='leftBarIconTitle'>Dashboard</span>
                         </li>

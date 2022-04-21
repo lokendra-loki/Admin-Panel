@@ -1,3 +1,33 @@
+import "./app.scss"
+import Home from "./pages/home/Home";
+import UpdateUser from "./pages/updateUser/UpdateUser";
+
+
+
+
+function App() {
+  return (
+    <div className="App">
+      <UpdateUser/>
+
+
+
+    </div>
+  );
+}
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
 // import Leftbar from "./components/leftbar/Leftbar";
 // import Topbar from "./components/topbar/Topbar";
 // import "./app.scss"
@@ -15,41 +45,3 @@
 //   );
 // }
 // export default App;
-
-
-
-
-
-// import "./app.scss"
-// import SinglePage from "./pages/single/SinglePage";
-// // import List from "./pages/list/List";
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* <List /> */}
-//       <SinglePage/>
-
-//     </div>
-//   );
-// }
-// export default App;
-
-
-
-
-//AddNewUserPage
-import "./app.scss"
-import AddProduct from "./pages/addProduct/AddProduct";
-// import AddNewUserPage from "./pages/addNewUser/AddNewUserPage";
-
-function App() {
-  return (
-    <div className="App">
-      {/* <AddNewUserPage /> */}
-     <AddProduct/>
-    </div>
-  );
-}
-export default App;
