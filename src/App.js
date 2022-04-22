@@ -1,7 +1,7 @@
 import "./app.scss"
 import UserList from "./pages/userList/UserList";
 import Home from "./pages/home/Home";
-import UpdateUser from "./pages/updateUser/UpdateUser";
+import User from "./pages/user/User";
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/userList" element={<UserList />} />
-          <Route exact path="/edit" element={<UpdateUser />} />
+          <Route exact path="/user/:userId" element={<User />} />
         </Routes>
       </Router>
     </div>
